@@ -1,0 +1,56 @@
+/*body{
+background: linear-gradient(135deg, #d558c8, #24d292);
+background-size: 2500% 2500%;
+animation: BackgroundGradient 30s ease infinite;
+}
+
+@keyframes BackgroundGradient{
+	0%{background-position: 0% 50%;}
+	50%{background-position: 100% 50%;}
+	100%{background-position: 0% 50%;}
+
+}*/
+
+html , body{
+background : url(Images/background.jpg) center center no-repeat;
+height: 100%;
+background-size: cover;
+}
+
+#intro-text h1{
+color: white;
+text-align: center;
+font-family: 'Indie Flower', cursive;
+font-size: 70px;
+margin-top: 10%;
+}
+
+#textbox{
+	margin-top: 40px;
+}
+
+#textbox #usr{
+	width: 60%;
+	margin-left: 60%;
+}
+
+#textbox #but{
+	width: 20%;
+	margin-left: 20%;
+}
+
+
+#timer .countdown{
+	background-color: rgba(0, 0, 0, 0.3);
+	position: relative;
+	top: 10%;
+	transform: translateX(50%);
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	width: 50%;
+	color: white;
+}
+
+.info{
+	font-size: 30px;
+}

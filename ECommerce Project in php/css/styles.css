@@ -1,0 +1,42 @@
+body{
+padding-top: 50px;
+}
+#headwrap{
+position: relative;
+padding: 0;
+margin: 0;
+overflow: hidden;
+height: 600px;
+background-image: url(../images/Background.png);
+background-repeat: no-repeat;
+background-size: 100% 700px;
+background-position: top center;
+background-attachment: fixed;
+}
+#logotext{
+position: absolute;
+width: 100%;
+height: 600px;
+background-image: url(../images/logo.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 70% 600px;
+top: 15%;
+margin-top: -90px;
+}
+.img-thumb{
+width: auto;
+height: 200px;
+}
+#footer{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.footer-div{
+margin-top: 20px;
+background-color: black;
+}
+img.details{
+width: 33%;
+margin: 15px auto;
+}
